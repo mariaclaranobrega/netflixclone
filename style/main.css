@@ -106,3 +106,12 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top: 5px;
 }
+
+.emalta{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 20px;
+}

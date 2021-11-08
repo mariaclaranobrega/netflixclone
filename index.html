@@ -20,9 +20,9 @@
             <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="https://www.netflix.com/browse/genre/83" target="_blank">Séries</a>
+                <a href="https://www.netflix.com/browse/genre/34399" target="_blank">Filmes</a>
+                <a href="https://www.netflix.com/search?q=document%C3%A1rios&suggestionId=6839_genre" target="_blank">Documentários</a>
             </nav>
         </div>
     </header>
@@ -33,11 +33,11 @@
                 <h3 class="titulo">FRIENDS</h3>
                 <p class="descricao">Seis jovens são unidos por laços familiares, românticos e, principalmente, de amizade, enquanto tentam vingar em Nova York. Rachel é a garota mimada que deixa o noivo no altar para viver com a amiga dos tempos de escola Monica, sistemática e apaixonada pela culinária. Monica é irmã de Ross, um paleontólogo que é abandonado pela esposa, que descobriu ser lésbica. Do outro lado do corredor do apartamento de Monica e Rachel, moram Joey, um ator frustrado, e Chandler, de profissão misteriosa. A turma é completa pela exótica Phoebe. </p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button role="button" class="botao" onclick="assistir()">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>            
-                    <button role="button" class="botao">
+                    <button role="button" class="botao" onclick="assistir()">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -49,35 +49,36 @@
 
     <div class="carrosel-filmes">
 
+        <div class="emalta">Em alta</div>
         <div class="owl-carousel owl-theme">
 
-            <div class="item">
+            <a  href="https://www.netflix.com/watch/70218481?trackId=13752289" target="_blank" class="item">
                 <img class="box-filmes" src="img/howimetyourmother.png" alt="" srcset="">
-            </div>
+            </a>
             
-            <div class="item">
-                <img class="box-filmes" src="img/modernfamily.png" alt="" srcset="">
-            </div>
+            <a href="https://www.netflix.com/watch/81262746?trackId=13752289&tctx=0%2C0%2C28fa32888f5ef1103189f5ff8b0a017c3afb5337%3A3da4f45664883c490b9983a3c1a383d3c2a7895a%2C28fa32888f5ef1103189f5ff8b0a017c3afb5337%3A3da4f45664883c490b9983a3c1a383d3c2a7895a%2C%2C" target="_blank" class="item">
+                <img class="box-filmes" src="img/round6.png" alt="" srcset="">
+            </a>
 
-            <div class="item">
-                <img class="box-filmes" src="img/ossimpsons.png" alt="" srcset="">
-            </div>
+            <a href="https://www.netflix.com/watch/80189599?trackId=13752289&tctx=0%2C0%2C97b3e6ddfe0d990cca181ad1d6a666d02501d1c9%3A5777ead77fcf8a6c58aaa1448fe981546ac1527c%2C97b3e6ddfe0d990cca181ad1d6a666d02501d1c9%3A5777ead77fcf8a6c58aaa1448fe981546ac1527c%2C%2C" target="_blank" class="item">
+                <img class="box-filmes" src="img/thewitcher.png" alt="" srcset="">
+            </da>
 
-            <div class="item">
+            <a href="https://www.netflix.com/watch/80210938?trackId=13752289&tctx=0%2C0%2C961461ad2d1f2e0c1017f9c471729b968eae8693%3Ae9ebb7fe9648350eb83f46a5afc43216e4d786d0%2C961461ad2d1f2e0c1017f9c471729b968eae8693%3Ae9ebb7fe9648350eb83f46a5afc43216e4d786d0%2C%2C" target="_blank"  class="item">
                 <img class="box-filmes" src="img/sexeducation.png" alt="" srcset="">
-            </div>
+            </a>
 
-            <div class="item">
+            <a href="https://www.netflix.com/watch/80186864?trackId=13752289&tctx=0%2C0%2C31afab17781a6064efd9273aa70018a81fd210a4%3A3d3d0ab14fe4ac21134c13954d9a753d4452397a%2C31afab17781a6064efd9273aa70018a81fd210a4%3A3d3d0ab14fe4ac21134c13954d9a753d4452397a%2C%2C" target="_blank" class="item">
                 <img class="box-filmes" src="img/umbrella.png" alt="" srcset="">
-            </div>
+            </a>
 
-            <div class="item">
-                <img class="box-filmes" src="img/bigbangtheory.png" alt="" srcset="">
-            </div>
+            <a href="https://www.netflix.com/watch/81206816?trackId=13752289&tctx=0%2C2%2C944d86c8916ed813d75e65ddc0e9c00b542ecc78%3Aba8dec72f79100778291e01918e795db5b7bd624%2C944d86c8916ed813d75e65ddc0e9c00b542ecc78%3Aba8dec72f79100778291e01918e795db5b7bd624%2C%2C" target="_blank" class="item">
+                <img class="box-filmes" src="img/you.png" alt="" srcset="">
+            </a>
 
-            <div class="item">
-                <img class="box-filmes" src="img/southpark.png" alt="" srcset="">
-            </div>
+            <a href="https://www.netflix.com/watch/81217432?trackId=13752289&tctx=0%2C0%2C175037289362cf3f6ab760af74f57fe5a5281223%3A12cd43138103e72ddfb41a2336bd39aaceefa84c%2C175037289362cf3f6ab760af74f57fe5a5281223%3A12cd43138103e72ddfb41a2336bd39aaceefa84c%2C%2C" target="_blank" class="item">
+                <img class="box-filmes" src="img/quemmatousara.png" alt="" srcset="">
+            </a>
 
             </div>
 
@@ -89,6 +90,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
+    <script src="js/owl/main.js"></script>
 
 </body>
 </html>
